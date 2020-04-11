@@ -23,7 +23,7 @@ public class IntroAct {
     public void setUp() throws URI.MalformedURIException, MalformedURLException, InterruptedException {
         driverManager.setUp();
         this.driver = driverManager.getDriver();
-        new IntroPage(driver).waitPictures();
+//        new IntroPage(driver).waitPictures();
     }
 
     @AfterMethod()

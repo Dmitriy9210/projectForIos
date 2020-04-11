@@ -3,6 +3,8 @@ package screensPages;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
 import static org.openqa.selenium.By.id;
 
@@ -60,8 +62,14 @@ public class IntroPage extends AbstractPage {
     }
 
     public void goTo3page(String text) { //Заполняем УИН
-        clickButton(number2, 10);
         goTo2Page();
+        Actions action = new Actions(driver);
+        action.moveToElement((WebElement) number2);
+        action.doubleClick();
+        action.perform();
+
+
+//        clickButton(number2, 10);
         clickButton(btnBack, 10);
         waitPictures();
     }
