@@ -60,6 +60,7 @@ public class IntroPage extends AbstractPage {
     }
 
     public void goTo3page(String text) { //Заполняем УИН
+        clickButton(number2, 10);
         goTo2Page();
         clickButton(btnBack, 10);
         waitPictures();

@@ -1,8 +1,8 @@
 package screensAction;
 
 import com.sun.org.apache.xml.internal.utils.URI;
-import gibdd.DotTestListener;
-import gibdd.DriverManager;
+import qaIOs.DotTestListener;
+import qaIOs.DriverManager;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import org.testng.annotations.*;
@@ -26,10 +26,10 @@ public class IntroAct {
         new IntroPage(driver).waitPictures();
     }
 
-//    @AfterMethod()
-//    public void nextTest() {
-//        driverManager.nextTest();
-//    }
+    @AfterMethod()
+    public void nextTest() {
+        driverManager.nextTest();
+    }
 
     @AfterTest()
     public void closeApp() {

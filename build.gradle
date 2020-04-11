@@ -26,8 +26,4 @@ dependencies {
     testCompile group: 'org.testng', name: 'testng', version: '7.0.0'
 //    https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
-//    https://mvnrepository.com/artifact/io.qameta.allure/allure-testng
-//    compile group: 'io.qameta.allure', name: 'allure-testng', version: '2.13.1'
-////    https://mvnrepository.com/artifact/ru.yandex.qatools.allure/allure-testng-adaptor
-//    compile group: 'ru.yandex.qatools.allure', name: 'allure-testng-adaptor', version: '1.5.4'
 }

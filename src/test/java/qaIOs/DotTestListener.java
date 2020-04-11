@@ -1,4 +1,4 @@
-package gibdd;
+package qaIOs;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
