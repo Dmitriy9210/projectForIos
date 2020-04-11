@@ -63,13 +63,13 @@ public class IntroPage extends AbstractPage {
 
     public void goTo3page(String text) { //Заполняем УИН
         goTo2Page();
-        Actions action = new Actions(driver);
-        action.moveToElement((WebElement) number2);
-        action.doubleClick();
-        action.perform();
+//        Actions action = new Actions(driver);
+//        action.moveToElement((WebElement) number5);
+//        action.doubleClick();
+//        action.perform();
 
 
-//        clickButton(number2, 10);
+        clickButton(number5, 10);
         clickButton(btnBack, 10);
         waitPictures();
     }
