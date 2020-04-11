@@ -1,0 +1,14 @@
+/workspace.xml
+
+.idea/
+#.gitignore
+.gradle/
+gradle/
+.build/
+.allure-results/
+target/
+allure-results/
+out/
+build/
+gradlew.bat
+gradlew
